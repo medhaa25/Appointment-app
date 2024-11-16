@@ -4,7 +4,7 @@ import Login from "./login";
 import "./register.css";
 import { useDispatch } from "react-redux";
 import { registerUser } from "../../redux/counterSlice";
-
+//git change example
 function Register() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
